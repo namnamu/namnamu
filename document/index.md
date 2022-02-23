@@ -5,3 +5,5 @@
 
 2. <a href="https://github.com/namnamu/namnamu/edit/main/document/react-recoil.md">react-recoil</a>
 
+### JS
+1. <a href="https://github.com/namnamu/namnamu/edit/main/document/js.md">JS</a>
