@@ -15,7 +15,7 @@
 
 
 목표
-- 내 웹페이지 제작
+- <a href="https://namnamu.github.io/">내 웹페이지 제작</a>
 - 포트폴리오가 되도록 내용기록
 - <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">공부기록</a>
 <br/><br/><br/>
