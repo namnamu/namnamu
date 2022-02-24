@@ -64,7 +64,7 @@ params.set('sch_keyword', '임꺽정');// params의 값은 ?sch_keyword=임꺽�
 
 참고
 
-url(window.location.href)나 페이지 리다이렉션으로 많이 쓰임.
+url(window.location.href)나 페이지 리다이렉션으로 많이 쓰임.   
 실제 코드 사용이랑 어디선가 스쳐지나가면서 본 내용들로 기록
 
 ---
