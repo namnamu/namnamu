@@ -1,3 +1,5 @@
+# React-Component
+
 - super()
     
     React.Component상속 클래스는 super(props)를 호출해야 this.props가 정의된다.
