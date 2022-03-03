@@ -5,6 +5,7 @@
 - [filter()](#filter)
 - [Location객체](#location객체)
 - [비동기 async와 await](#비동기-async와-await)
+- [EVENT](#event)
 
 ### URLSearchParams()
 
@@ -112,3 +113,32 @@ return greeting = await Promise.resolve("Hello");
 https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Async_await
 
 ---
+
+### EVENT
+
+- preventDefault()
+    
+    이벤트를 막는다.
+    
+    ```jsx
+    function checkName(evt) {
+      var charCode = evt.charCode;
+        if (charCode < 97 || charCode > 122) {
+          evt.preventDefault();//이벤트가 막히고 아래 기능만 함.
+          displayWarning(
+            "영문 소문자만 입력하세요."
+            + "\n" + "charCode: " + charCode + "\n"
+          );
+        }
+    }
+    ```
+    
+    ---
+    
+    참고
+    
+    [https://developer.mozilla.org/ko/docs/Web/API/Event/preventDefault](https://developer.mozilla.org/ko/docs/Web/API/Event/preventDefault)
+   
+   ---
+    
+
