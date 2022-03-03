@@ -6,6 +6,7 @@
 - [Location객체](#location객체)
 - [비동기 async와 await](#비동기-async와-await)
 - [EVENT](#event)
+- [웹 스토리지](#웹-스토리지)
 
 ### URLSearchParams()
 
@@ -142,3 +143,43 @@ https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Async_await
    ---
     
 
+### 웹 스토리지
+- localStorage
+    
+    웹스토리지: 세션스토리지,로컬스토리지
+    
+    - 세션 스토리지: 세션끝나면 지워짐
+    
+    브라우저에서 같은 웹사이트를 여러 탭이나 창에 띄우면, 여러 개의 세션 스토리지에 데이터가 서로 격리되어 저장. 각 탭이나 창이 닫힐 때 저장해 둔 데이터도 함께 소멸합니다. 
+    
+    - 로컬스토리지: 세션끝나도 안지워짐
+    
+    반면에, 로컬 스토리지의 경우 여러 탭이나 창 간에 데이터가 서로 공유되며 탭이나 창을 닫아도 데이터는 브라우저에 그대로 남아 있습니다.
+    
+    따라서 직접 청소해줘야합니다.
+    
+    주의: 모든 것이 문자형으로 저장된다.
+    
+    ```
+    // 키에 데이터 쓰기
+    localStorage.setItem("key", value);
+    
+    // 키로 부터 데이터 읽기
+    localStorage.getItem("key");
+    
+    // 키의 데이터 삭제
+    localStorage.removeItem("key");
+    
+    // 모든 키의 데이터 삭제
+    localStorage.clear();
+    
+    // 저장된 키/값 쌍의 개수
+    localStorage.length;
+    ```
+    
+    ---
+    
+    참고
+    
+    [https://www.daleseo.com/js-web-storage/](https://www.daleseo.com/js-web-storage/)
+---
