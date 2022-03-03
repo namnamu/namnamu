@@ -1,12 +1,12 @@
 # React-Component
 
-- super()
+### super()
     
-    React.Component상속 클래스는 super(props)를 호출해야 this.props가 정의된다.
+  - React.Component상속 클래스는 super(props)를 호출해야 this.props가 정의된다.
     
-    construct(여기 들어가는 인자는): 클래스 호출되면서 받아오는 값
+  - construct(여기 들어가는 인자는): 클래스 호출되면서 받아오는 값
     
-    super(여기 들어가는 인자는): 부모 클래스에서 가져올 값
+  - super(여기 들어가는 인자는): 부모 클래스에서 가져올 값
     
     ```jsx
     class Parent {
@@ -37,12 +37,61 @@
     stu.avg(); //50
     ```
     
+ ---
+    
+  참고
+    
+  (1) [https://goodmemory.tistory.com/121](https://goodmemory.tistory.com/121)
+    
+  (2) [https://velog.io/@rand_guy/TILClass에서-Constructor와-Super를-쓰는-이유](https://velog.io/@rand_guy/TILClass%EC%97%90%EC%84%9C-Constructor%EC%99%80-Super%EB%A5%BC-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0)
+    
+ ---
+    
+### prop-types
+    
+- 부모로부터 전달받은 prop의 데이터 type을 검사
+- 자식 컴포넌트에서 명시해 놓은 데이터 타입과 부모로부터 넘겨받은 데이터 타입이 일치하지 않으면 콘솔에 에러 경고문이 띄워진다
+- proptype에 정의되어있는 타입으로 검사할 수도 있고, 사용자가 함수를 정의할 수도 있다. proptype에 정의되어 있어 이용만 하면 되는 타입은 아래와 같다
+        
+        ```jsx
+        MyComponent.propTypes = {
+          // 리액트 요소
+          // <div>123</div> , <Component />
+          menu: PropTypes.element,
+        
+          // 컴포넌트 함수가 반환할 수 있는 모든 것(비추)
+          // <SomeComponent />, 123
+          description: PropTypes.node,
+        
+          // Message 클래스로 생성된 모든 객체
+          // new Messages() -> 참, new Car() -> 거짓
+          message: PropTypes.instanceOf(Message),
+        
+          // 배열에 포함된 값 중에서 하나를 만족
+          name: PropTypes.oneOf(["jake", "olivia"]),
+        
+          // 배열에 포함된 타입 중에서 하나를 만족
+          width: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+        
+          // 특정 타입만 포함하는 배열
+          // [1, 5, 7] -> 참, ['a', 'b'] -> 거짓
+          ages: PropTypes.arrayOf(PropTypes.number),
+        
+          // 객체의 속성값 타입을 정의
+          // {color: 'red', weight: 123} -> 참
+          info: PropTypes.shape({
+            color: PropTypes.string,
+            weight: PropTypes.number
+          })
+        
+          // 객체에서 모든 속성값의 타입이 같은 경우
+          // {prop1: 123, prop2: 456}
+          infos: PropTypes.objectOf(PropTypes.number)
+        }
+        ```
     ---
     
-    참고
-    
-    [https://goodmemory.tistory.com/121](https://goodmemory.tistory.com/121)
-    
-    [https://velog.io/@rand_guy/TILClass에서-Constructor와-Super를-쓰는-이유](https://velog.io/@rand_guy/TILClass%EC%97%90%EC%84%9C-Constructor%EC%99%80-Super%EB%A5%BC-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0)
-    
+    참고   
+    [https://velog.io/@eunjin/React-PropTypes-쓰는-이유-방법](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
+
     ---
