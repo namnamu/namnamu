@@ -1,5 +1,10 @@
 # React-Component
 
+## CONTENTS
+1. [super](#super)
+2. [prop-types](#prop-types)
+3. [react에서 link를 \<a\> 보다 선호하는 이유](#3)
+
 ### super()
     
   - React.Component상속 클래스는 super(props)를 호출해야 this.props가 정의된다.
@@ -95,3 +100,15 @@
     [https://velog.io/@eunjin/React-PropTypes-쓰는-이유-방법](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
 
     ---
+###### 3    
+### react에서 link를 \<a\> 보다 선호하는 이유  
+    
+- a태그: js나 css등 자산을 모두 로드→상태 초기화,재 렌더링 필요→속도 저하
+    
+- link 컴포넌트: 브라우저의 주소만 변경, 페이지를 불러오는 것이 아닌 업데이트하는 방식→상태유지&속도 증가
+    
+    ---
+    참고
+    
+    [https://gomgomkim.tistory.com/9](https://gomgomkim.tistory.com/9)
+---
