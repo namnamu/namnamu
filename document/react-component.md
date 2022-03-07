@@ -4,6 +4,7 @@
 1. [super](#super)
 2. [prop-types](#prop-types)
 3. [react에서 link를 \<a\> 보다 선호하는 이유](#3)
+4. [lazy()](#lazy)
 
 ### super()
     
