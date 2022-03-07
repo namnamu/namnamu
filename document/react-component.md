@@ -112,3 +112,43 @@
     
     [https://gomgomkim.tistory.com/9](https://gomgomkim.tistory.com/9)
 ---
+### lazy()
+- 번들
+    
+병합된.
+    
+- lazy
+    
+    - before: import OtherComponent from './OtherComponent';   
+
+    - after: const OtherComponent = React.lazy(() => import('./OtherComponent'));
+    
+예시)
+    
+    import React, { Suspense } from 'react';
+    
+    const OtherComponent = React.lazy(() => import('./OtherComponent'));
+    
+    function MyComponent() {
+      return (
+        <div>
+          <Suspense fallback={<div>Loading...</div>}>
+            <OtherComponent />
+          </Suspense>
+        </div>
+      );
+    }
+    
+- loding...
+    
+`Suspense`는 lazy 컴포넌트가 로드되길 기다리는 동안 로딩 화면과 같은 예비 컨텐츠를 보여줄 수 있게 해줍니다.
+    
+`fallback` prop은 컴포넌트가 로드될 때까지 기다리는 동안 렌더링하려는 React 엘리먼트를 받아들입니다.
+    
+---
+    
+참고
+    
+[https://ko.reactjs.org/docs/code-splitting.html](https://ko.reactjs.org/docs/code-splitting.html)
+    
+---
