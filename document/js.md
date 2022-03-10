@@ -192,13 +192,13 @@ https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Async_await
     
    브라우저의 window객체에 소속되어 window.fetch()으로 사용가능
     
-   - 첫번째 인자: url
-    - 두번째 인자: option
-        - HTTP방식, HTTP요청 헤더, HTTP요청 전문(body) 설정
-    - 반환 객체: promise
-        - api호출 성공: 응답객체(response)를 resolve
-            - HTTP응답상태(status), HTTP응답헤더, HTTP응답전문 등 읽기 가능
-        - api호출 실패: 예외객체(error)를 reject
+   - 첫번째 인자: url   
+   - 두번째 인자: option   
+        - HTTP방식, HTTP요청 헤더, HTTP요청 전문(body) 설정   
+   - 반환 객체: promise   
+        - api호출 성공: 응답객체(response)를 resolve   
+            - HTTP응답상태(status), HTTP응답헤더, HTTP응답전문 등 읽기 가능   
+        - api호출 실패: 예외객체(error)를 reject   
     
    **GET사용방식**
     
