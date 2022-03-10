@@ -7,6 +7,8 @@
 - [비동기 async와 await](#비동기-async와-await)
 - [EVENT](#event)
 - [웹 스토리지](#웹-스토리지)
+- [fetch()](#fetch)
+
 
 ### URLSearchParams()
 
@@ -183,3 +185,77 @@ https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Async_await
     
     [https://www.daleseo.com/js-web-storage/](https://www.daleseo.com/js-web-storage/)
 ---
+### fetch()
+1.fetch("http:~")    
+
+ 굳이 라이브러리를 사용하면 자바스크립트의 번들파일의 크기만 늘려서 낭비가 될 수 있다.
+    
+   브라우저의 window객체에 소속되어 window.fetch()으로 사용가능
+    
+   - 첫번째 인자: url
+    - 두번째 인자: option
+        - HTTP방식, HTTP요청 헤더, HTTP요청 전문(body) 설정
+    - 반환 객체: promise
+        - api호출 성공: 응답객체(response)를 resolve
+            - HTTP응답상태(status), HTTP응답헤더, HTTP응답전문 등 읽기 가능
+        - api호출 실패: 예외객체(error)를 reject
+    
+   **GET사용방식**
+    
+ ```
+   fetch("https://jsonplaceholder.typicode.com/posts/1").then((response) =>
+     console.log(response)
+   );
+ ```
+    
+ **POST사용방식**
+    
+ ```
+ fetch("https://jsonplaceholder.typicode.com/posts", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title: "Test",
+        body: "I am testing!",
+        userId: 1,
+      }),
+    }).then((response) => console.log(response));
+```
+    
+  ---
+    
+   참고
+    
+   [https://www.daleseo.com/js-window-fetch/](https://www.daleseo.com/js-window-fetch/)
+    
+   ---
+    
+2. fetch(경로)
+    
+    json파일에 쉽게 접근할 수 있다.
+    
+    ```jsx
+    function loadItems(){
+    	return fetch("data/data.json")
+    	.then((response)=>response.json())
+    	.then((json)=>json.items);
+    }
+    //아이템 동적으로 받아오기
+    loadItems().then((items)=>{
+    	console.log(items);
+    });
+    ```
+    
+    then으로 받아온 response에는 url과 status가 들어있다. 
+    
+    .json()을 통해 json형태로 변환할 수 있다.
+    
+    ---
+    
+    참고
+    
+    [https://namhandong.tistory.com/99](https://namhandong.tistory.com/99)
+    
+    ---
