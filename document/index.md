@@ -1,4 +1,4 @@
-# 공부 정리
+# 그만 까먹자!
 
 ### React
 1. <a href="https://github.com/namnamu/namnamu/edit/main/document/react-hook.md">react-hook</a>
@@ -11,6 +11,11 @@
 
 ### JS
 1. <a href="https://github.com/namnamu/namnamu/edit/main/document/js.md">JS</a>
+
+### INFO
+1. <a href="https://github.com/namnamu/namnamu/edit/main/document/docker.md">docker</a>
+2. <a href="https://github.com/namnamu/namnamu/edit/main/document/port.md">Port개념</a>
+
 
 ### restful api
 RESTful API는 리소스 상태에 대한 표현을 요청자에게 전송합니다.   
