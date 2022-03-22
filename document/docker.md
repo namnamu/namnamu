@@ -49,11 +49,11 @@ docker pull ubuntu:18.04           이미지를 다운로드하는 예시
 
 
 **apt-get install unzip**
- 
- # 이미지 받아오기
+ <br/><br/><br/>
+ ## 이미지 받아오기
 > $ docker pull ubuntu:18.04 
    
- # 컨테이너 생성
+ ## 컨테이너 생성
 > $ docker run -itd -p {연결할포트번호}:{도커내부포트번호} -v {호스트 볼륨위치}:{도커 볼륨위치} --name {도커 컨테이너 이름} ubuntu:18.04
 
 도커에 우분투 환경으로 처음 들어가면,
@@ -68,7 +68,7 @@ docker pull ubuntu:18.04           이미지를 다운로드하는 예시
 
  [https://blog.system32.kr/205](https://blog.system32.kr/205)
  
-# Nodejs 설치
+## Nodejs 설치
 
 $ sudo apt-get update
 $ sudo apt-get install -y build-essential
