@@ -18,7 +18,8 @@ docker ps -a로 중단된 것들도 다 보이도록함.
 
 docker pull ubuntu:18.04           이미지를 다운로드하는 예시
 
-#Image를 이용해서 Container 인스턴스를 만드는 역할
+   ---
+### Image를 이용해서 Container 인스턴스를 만드는 역할
 
 > **docker create [옵션] 이미지 이름[:버전]** 
 >
@@ -29,12 +30,13 @@ docker pull ubuntu:18.04           이미지를 다운로드하는 예시
 > docker start 컨테이너 이름
 >
 > **docker attach 컨테이너 이름**
-
-
-#컨테이너 중지
+   
+---
+### 컨테이너 중지
 
 > docker stop <container name>
-
+   
+   ---
 ### git 설치
 
 [https://jjeongil.tistory.com/1304](https://jjeongil.tistory.com/1304)
