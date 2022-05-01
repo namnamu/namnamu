@@ -14,8 +14,8 @@
 
 ### INFO
 1. <a href="https://github.com/namnamu/namnamu/edit/main/document/docker.md">docker</a>
-2. <a href="https://github.com/namnamu/namnamu/edit/main/document/port.md">Port개념</a>
-
+2. <a href="https://github.com/namnamu/namnamu/edit/main/document/port.md">Port개념</a>   
+3. <a href="https://github.com/namnamu/namnamu/edit/main/document/git.md">git</a>
 
 ### restful api
 RESTful API는 리소스 상태에 대한 표현을 요청자에게 전송합니다.   
