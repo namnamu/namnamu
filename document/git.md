@@ -13,9 +13,11 @@ git init
 git remote -v   
 git remote add 원격레포 원격주소   
 git remote remove 원격레포   
+git log   
 git log --oneline --graph --all   
 git branch   
-git push 원격레포 브랜치   
+git push 원격레포 브랜치 
+git checkout 브랜치이름   
 git checkout -b 브랜치이름    
 git stash   
 git stash list   
@@ -30,6 +32,6 @@ git log
 git fetch 원격레포 브랜치   
 git pull 원격레포 브랜치   
 ```
-
+개인적으로 커밋이나 스테이징같은건 ui가 편함
 
 
