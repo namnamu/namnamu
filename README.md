@@ -3,6 +3,7 @@
 - <a href="https://namnamu.github.io/">유니티 프로젝트(ONION)</a>
 - <a href="https://youtu.be/4e2WnCjWdxM">유니티 프로젝트(ONION) 시연영상</a>
 - <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md"><del>웹 공부기록</del></a>
+- <a href="https://youtu.be/YG9ZDxoyQYY">서울대기오염도분석</a>
 <br>
 
 ### 취득 자격증 및 수상
