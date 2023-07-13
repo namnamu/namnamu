@@ -5,9 +5,9 @@
 
 2. <a href="https://github.com/namnamu/namnamu/edit/main/document/react-component.md">react-component</a>
 
-3. <a href="https://github.com/namnamu/namnamu/edit/main/document/react-recoil.md">글로벌 상태 관리 방법(redux/recoil)</a> (리코일 예정)
+3. <a href="https://github.com/namnamu/namnamu/edit/main/document/react-recoil.md">글로벌 상태 관리 방법(redux/recoil)</a> (리코일 추가 필요)
 
-4. <a href="https://github.com/namnamu/namnamu/edit/main/document/type-script.md">typeScript</a> (예정)
+4. <a href="https://github.com/namnamu/namnamu/edit/main/document/type-script.md">typeScript</a> (미완)
 
 ### JS
 1. <a href="https://github.com/namnamu/namnamu/edit/main/document/js.md">JS</a>
