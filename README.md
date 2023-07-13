@@ -2,7 +2,7 @@
 
 - <a href="https://namnamu.github.io/">유니티 프로젝트(ONION)</a>
 - <a href="https://youtu.be/4e2WnCjWdxM">유니티 프로젝트(ONION) 시연영상</a>
-- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">공부기록</a>
+- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">웹 공부기록(중단)</a>
 <br>
 
 ### 취득 자격증 및 수상
@@ -21,7 +21,7 @@
 <br/>
 
 ```
-세상은 넓고, 해야할 일은 많다....
+어디로 가야하리오....
 ```
 
 <!--
