@@ -9,7 +9,7 @@
 - <a href="https://youtu.be/YG9ZDxoyQYY">서울대기오염도분석</a>
   - 오픈 데이터를 이용한 데이터 시각화
 - PythonPackage
-  - 개인 수월한 패키지 작성을 위한 파이썬 유틸리티
+  - 수월한 패키지 작성을 위한 개인 파이썬 유틸리티
 
 <br>
 
