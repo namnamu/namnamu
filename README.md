@@ -7,7 +7,6 @@
 - <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md"><del>웹 공부기록</del></a>
 - <a href="https://youtu.be/YG9ZDxoyQYY">서울대기오염도분석</a>
 - PythonPackage : 개인 수월한 패키지 작성을 위한 파이썬 유틸리티
-- 
 
 <br>
 
@@ -36,7 +35,7 @@
 |기술|관련 프로젝트|
 |---|---|
 | Unity | ONION |
-|React, Git|아임클라우드 사|    
+|React, Git, RestAPI, AJAX, ... |아임클라우드 사|    
 |Python|서울대기오염도분석, PythonPackage |
 |AWS||
 |LINUX|리눅스 마스터 2급|
@@ -47,6 +46,7 @@
 
 ```
 
+    호기심 많은 개발자입니다. 소프트웨어의 극치를 달리기 위한 여정...
 
     이름: 남인경
 
