@@ -3,7 +3,10 @@
 ### 프로젝트 설명
 
 - <a href="https://namnamu.github.io/">유니티 프로젝트(ONION) 동작 </a>
-  - 블록체인 아이템을 게임 상에서 사용할 수 있도록 연결 및 게임 개발
+  - 개발 기간: 1년(2022년 대학 졸업작품)
+  - 팀 프로젝트: 2명
+  - 내 역할: 미니 몹 ai, 블록체인 연결
+  - 프로젝트 내용: 블록체인 아이템을 게임 상에서 사용할 수 있도록 연결 및 게임 개발
   - <a href="https://youtu.be/4e2WnCjWdxM">유니티 프로젝트(ONION) 시연영상</a>
 <!-- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">웹 공부기록</a> -->
 - <a href="https://youtu.be/YG9ZDxoyQYY">서울대기오염도분석</a>
