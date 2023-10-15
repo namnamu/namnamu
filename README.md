@@ -2,17 +2,19 @@
 
 ### 프로젝트 설명
 
-- <a href="https://namnamu.github.io/">유니티 프로젝트(ONION) 동작 </a>
+- 유니티 프로젝트(ONION) 동작
   - 개발 기간: 1년(2022년 대학 졸업작품)
   - 팀 프로젝트: 2명
   - 내 역할: 미니 몹 ai, 날아다니는 아이템, 블록체인 연결
   - 프로젝트 내용: 블록체인 아이템을 게임 상에서 사용할 수 있도록 연결 및 게임 개발
   - 외부라이브러리: sunnyland, ChainSafe SDK(GNU public license)
   - 사용언어: C#, JS
+  - <a href="https://namnamu.github.io/"> ONION 바로가기 </a>
   - <a href="https://youtu.be/4e2WnCjWdxM">유니티 프로젝트(ONION) 시연영상</a>
 <!-- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">웹 공부기록</a> -->
-- <a href="https://youtu.be/YG9ZDxoyQYY">서울대기오염도분석</a>
+- 서울대기오염도분석
   - 오픈 데이터를 이용한 데이터 시각화
+  - <a href="https://youtu.be/YG9ZDxoyQYY">시연영상</a>
 - PythonPackage
   - 수월한 패키지 작성을 위한 개인 파이썬 유틸리티
 
