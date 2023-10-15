@@ -14,7 +14,7 @@
 <!-- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">웹 공부기록</a> -->
 - 서울대기오염도분석
   - 오픈 데이터를 이용한 데이터 시각화
-  - <a href="https://youtu.be/YG9ZDxoyQYY">시연영상</a>
+  - <a href="https://youtu.be/YG9ZDxoyQYY">발표영상</a>
 - PythonPackage
   - 수월한 패키지 작성을 위한 개인 파이썬 유틸리티
 
