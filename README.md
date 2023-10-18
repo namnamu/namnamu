@@ -46,9 +46,9 @@
 |기술|관련 프로젝트|
 |---|---|
 | Unity | ONION |
-|React, Git, RestAPI, AJAX, ... |아임클라우드 사|    
+|React, Git, RestAPI, AJAX, ... |아임클라우드 사 근무|    
 |Python|서울대기오염도분석, PythonPackage |
-|AWS||
+|AWS|-|
 |LINUX|리눅스 마스터 2급|
 |SQL|sqld|
 
