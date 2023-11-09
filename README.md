@@ -26,9 +26,14 @@
 - 서울대기오염도분석
   - 오픈 데이터를 이용한 데이터 시각화
   - <a href="https://youtu.be/YG9ZDxoyQYY">발표영상</a>
+  - 최종 수행 날짜: 2021.06.20
 - PythonPackage
   - 수월한 패키지 작성을 위한 개인 파이썬 유틸리티
-
+- 자전거 대여량 예측
+  - 프로젝트 내용: 회귀분석을 이용한 자전거 대여량 예측
+  - <a href="https://github.com/namnamu/Scaled_regression.git">코드</a>
+  - 최종 수행 날짜: 23.10.18
+- 
 <br>
 
 ### 취득 자격증 및 수상
