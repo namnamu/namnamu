@@ -15,7 +15,7 @@
 
 - 유니티 프로젝트(ONION) 동작
   - 개발 기간: 1년(2022년 대학 졸업작품)
-  - 팀 프로젝트: 2명
+  - 프로젝트 인원: 2명(팀 onion code)
   - 내 역할: 미니 몹 ai, 날아다니는 아이템, 블록체인 연결
   - 프로젝트 내용: 블록체인 아이템을 게임 상에서 사용할 수 있도록 연결 및 게임 개발
   - 외부라이브러리: sunnyland, ChainSafe SDK(GNU public license)
@@ -25,15 +25,22 @@
 <!-- <a href="https://github.com/namnamu/namnamu/blob/main/document/index.md">웹 공부기록</a> -->
 - 서울대기오염도분석
   - 오픈 데이터를 이용한 데이터 시각화
+  - 프로젝트 인원: 1명(개인)
   - <a href="https://youtu.be/YG9ZDxoyQYY">발표영상</a>
   - 최종 수행 날짜: 2021.06.20
 - PythonPackage
   - 수월한 분석 및 시각화 패키지 작성을 위한 개인 파이썬 유틸리티
+  -  <a href="https://github.com/namnamu/PythonPackage.git">git hub 이동</a>
 - 자전거 대여량 예측
   - 프로젝트 내용: 회귀분석을 이용한 자전거 대여량 예측
-  - <a href="https://github.com/namnamu/Scaled_regression.git">코드</a>
+  - 프로젝트 인원: 1명(개인)
+  - <a href="https://github.com/namnamu/Scaled_regression.git">git hub 이동</a>
   - 최종 수행 날짜: 23.10.18
-- 
+- 차량 번호판 인식 모델 개발
+  - 프로젝트 내용: 차량 번호판을 분화하여 번호판 숫자 인식을 하도록 모델 개발
+  - 프로젝트 인원: 1명(개인)
+  - <a href="https://github.com/namnamu/Car_license_plate_recognition.git">git hub 이동</a>
+
 <br>
 
 ### 취득 자격증 및 수상
