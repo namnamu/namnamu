@@ -71,7 +71,7 @@
 | Unity | ONION |
 |React, Git, RestAPI, AJAX, ... |아임클라우드 사 근무|    
 |Python|서울대기오염도분석, PythonPackage |
-|AWS|-|
+|AWS|https://namnamu.tistory.com/5|
 |LINUX|리눅스 마스터 2급|
 |SQL|sqld|
 
