@@ -70,22 +70,24 @@
 |기술|관련 프로젝트|
 |---|---|
 | Unity | ONION |
-|React, Git, RestAPI, AJAX, ... |아임클라우드 사 근무|    
-|Python|서울대기오염도분석, PythonPackage |
-|AWS|https://namnamu.tistory.com/5|
-|LINUX|리눅스 마스터 2급|
-|SQL|sqld|
+| Python | 서울대기오염도분석, PythonPackage |
+| AWS ATHENA, sql, AWS GLUE, AWS Lake Formation, AWS IAM | 천재교과서 - 캘리퍼데이터 모니터링 및 데이터 사용자 접근 관리 |
+| AWS Lambda, API Gateway, AWS S3 | 천재교과서 - 데이터스토어 서비스 api 개발 |    
+| jenkins, airflow, pyspark, jupyter notebook, AWS EMR | 천재교과서 - 데이터 이관 | 
+| Notion | 기술행사참여기록 https://www.notion.so/2025-aws-summit-1f339deac3618069919ad4395ae806dc?pvs=4 |
+
+
 
 
 <br/>
 
 ```
 
-    호기심 많은 개발자입니다. 소프트웨어의 극치를 달리기 위한 여정...
 
-    이름: 남인경
+    Contact
 
     메일 주소: skadlsrud8@naver.com
+    블로그: https://namnamu.tistory.com/5
 
 
 ```
